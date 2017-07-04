@@ -16,7 +16,7 @@
         <p class="list-group-item-text">{{recipe.description}}</p>
       </div>
       <span class="pull-right">
-        <img src="{{recipe.imagePath}}" class="img-responsive" alt="" style="max-height: 50px;">
+        <img [src]="recipe.imagePath" class="img-responsive" alt="{{recipe.name}}" style="max-height: 50px;">
       </span>
     </a>
     <br>
